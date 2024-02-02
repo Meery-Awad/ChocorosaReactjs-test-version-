@@ -1,0 +1,91 @@
+@import '../../style/style.scss';
+
+.AboutUs {
+ margin-top: $height;
+ position: absolute;
+}
+
+.about-section {
+    background: url(https://media.licdn.com/dms/image/D4E12AQEMMNmjn4s_pA/article-cover_image-shrink_720_1280/0/1691141542938?e=2147483647&v=beta&t=6AJlXyCwIQpcI3AjlSSnxfPhkD5GOUE_JwZ-Oy1P_a0) no-repeat left;
+    background-size: 100%;
+    background-color: #888;
+    overflow: hidden;
+    padding: 30px 0;
+
+}
+
+.inner-container {
+    width: 55%;
+    height: 100vh;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 150px;
+
+}
+
+.line {
+    border-top: 2px solid $SecondColor;
+    border-left: 2px solid $SecondColor;
+    width: 50%;
+    height: 80vh;
+    position: absolute;
+    margin: -11vh;
+    z-index: 0;
+
+}
+
+.inner-container h1 {
+    margin-bottom: 30px;
+    font-size: 3em;
+
+}
+
+.inner-container .text {
+    font-size: 1.5em;
+    color: $firstColor;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.About {
+    color: $SecondColor;
+}
+
+@media screen and (max-width:1200px) {
+    .inner-container {
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .about-section {
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+
+    .inner-container {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:1022px) {
+    .about-section {
+        padding: 0;
+    }
+
+    .inner-container {
+        padding: 60px;
+    }
+    .AboutUs{
+        margin-top: $height - 10 ;
+    }
+}

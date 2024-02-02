@@ -1,0 +1,183 @@
+.NoYet {
+  color: #EF9898;
+  text-align: center;
+}
+
+.selectstate {
+  width: 60%;
+  margin: auto;
+  height: -moz-max-content;
+  height: max-content;
+  margin-top: 260px;
+}
+
+.selectstate .categoryTypeCont {
+  width: 100%;
+  display: flex;
+  border: 1px solid #bbbbbb;
+  height: -moz-max-content;
+  height: max-content;
+  padding: 60px 40px;
+}
+
+.selectstate .deleteAndEdit {
+  display: flex;
+  margin-left: 90%;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.selectstate .fa-pen {
+  color: #B48A65;
+  margin-right: 8px;
+}
+
+.selectstate .fa-trash {
+  color: rgb(230, 94, 94);
+}
+
+.Model .confirmDelete {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.selectstate img {
+  height: 10%;
+  width: 40%;
+}
+
+.selectstate .details {
+  padding: 10px 50px;
+  margin-top: 10px;
+  width: 60%;
+}
+
+.selectstate .phrase {
+  line-height: 30px;
+  color: #707070;
+  margin-top: 10px;
+}
+
+.selectstate .categoryType {
+  background: none;
+  margin: 0px;
+  box-shadow: none;
+}
+
+.selectstate .categoryType .name {
+  font-size: 22px;
+}
+
+.selectstate .categoryType .description {
+  color: #888;
+  border: 1px solid #acacac;
+  padding: 5px 15px;
+  margin: 20px 0px;
+  border-radius: 5px;
+  word-spacing: 5px;
+  line-height: 25px;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+}
+
+.selectstate .addToCard {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.quntity {
+  padding: 15px 0;
+}
+
+.quntity .process {
+  border: 1px solid #c7c7c7;
+  padding: 15px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.quntity .quntityCont {
+  border: 1px solid #c7c7c7;
+  padding: 15px 60px;
+  background-color: #e4e2e2;
+}
+
+.category {
+  margin-top: 5px;
+  color: #EF9898;
+}
+
+.selectstate .afterDelete {
+  position: absolute;
+  width: 60vw;
+  padding: 100px 0 200px 0;
+  text-align: center;
+}
+
+.selectstate .selectedColor {
+  background-color: #d1d1d1;
+}
+
+@media (max-width: 1022px) {
+  .selectstate .afterDelete {
+    width: 90vw;
+  }
+  .selectstate {
+    width: 90%;
+    margin: auto;
+    margin-top: 240px;
+  }
+  .selectstate .categoryTypeCont {
+    width: 100%;
+    display: block;
+    padding: 60px 20px;
+  }
+  .selectstate img {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+  }
+  .selectstate .details {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+  }
+  .selectstate .categoryType {
+    background: none;
+    box-shadow: none;
+  }
+  .selectstate .categoryType .name {
+    font-size: 22px;
+  }
+  .selectstate .categoryType .description {
+    color: #888;
+    border: 1px solid #acacac;
+    margin: 20px 0px;
+    border-radius: 5px;
+    word-spacing: 5px;
+  }
+  .selectstate .addToCard {
+    padding: 20px;
+  }
+  .selectstate .quntity {
+    padding: 15px 0;
+  }
+  .selectstate .quntity .process {
+    border: 1px solid #c7c7c7;
+    padding: 15px;
+    font-size: 17px;
+    cursor: pointer;
+  }
+  .selectstate .quntity .quntityCont {
+    border: 1px solid #c7c7c7;
+    padding: 15px 60px;
+    background-color: #e4e2e2;
+  }
+}
+.selectstate .selectedColorList {
+  display: flex;
+}/*# sourceMappingURL=selectItem.css.map */

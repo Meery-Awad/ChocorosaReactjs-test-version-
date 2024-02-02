@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap");
+@import '../../../style/style.scss';
+
+:root {
+  --width: 50%;
+  --gap: 0.5rem;
+}
+
+.ourNew {
+
+  width: 75%;
+  margin: auto;
+  margin-top: 50px;
+
+
+}
+
+
+.ourNew .container {
+
+  position: relative;
+
+  height: 700px;
+  overflow: hidden;
+
+
+
+}
+
+.ourNew .slider {
+  height: 100%;
+  margin-top: 30px;
+
+
+}
+
+
+.ourNew .slider-track {
+
+  position: relative;
+  left: calc(-100% - var(--gap)*2);
+  height: inherit;
+  display: flex;
+  gap: var(--gap);
+  list-style-type: none;
+  transition: transform 0.8s;
+
+
+
+  & .item {
+    min-width: var(--width);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    transition: transform 0.8s;
+
+
+  }
+}
+
+.ourNew .btnOurNew {
+  position: absolute;
+  top: 50%;
+  width: 2.3rem;
+  height: 2.3rem;
+  display: grid;
+  place-items: center;
+  border: none;
+  border-radius: 50%;
+  opacity: 0.5;
+  cursor: pointer;
+  transition: opacity 0.3s;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  &:nth-of-type(1) {
+    left: 2vmin;
+  }
+
+  &:nth-of-type(2) {
+    right: 2vmin;
+  }
+}
+
+@media (width < 1000px) {
+  .ourNew .slider-track {
+    left: calc(-100% - var(--gap) * 2);
+
+    & .item {
+      min-width: 50%;
+    }
+  }
+}
+
+@media (width < 700px) {
+  .ourNew .slider-track {
+    left: calc(-200% - var(--gap) * 2);
+
+    & .item {
+      min-width: 100%;
+    }
+  }
+}
+
+.title1 {
+  color: $firstColor;
+  @include title();
+  margin-left: 20px;
+
+
+
+}

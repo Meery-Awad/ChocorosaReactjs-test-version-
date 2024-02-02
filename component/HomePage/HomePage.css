@@ -1,0 +1,164 @@
+.NoYet {
+  color: #EF9898;
+  text-align: center;
+}
+
+.HomePage {
+  z-index: 0;
+  margin-top: 260px;
+}
+
+.titleHomePage {
+  color: #888;
+  text-align: center;
+  padding: 10px;
+}
+
+.fa.fa-check {
+  display: none;
+  color: rgb(115, 222, 115);
+  font-size: 20px;
+  margin: 0 3px;
+}
+
+.titleHomePage .telUs {
+  background-color: #fff;
+  text-align: center;
+  padding: 3px;
+  border-radius: 50%;
+  border: 1px solid #B48A65;
+  padding-left: 3px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.titleHomePage .telUs:hover {
+  background-color: #fef8fb;
+  color: #B48A65;
+}
+
+.titleHomePage .number {
+  color: #B48A65;
+}
+
+.HomePage .AddAndWhatsAppSect {
+  position: fixed;
+  z-index: 2;
+  width: 100vw;
+  margin: -10px 88%;
+}
+
+.HomePage .AddAndWhatsAppSect img {
+  width: 70px;
+  border-radius: 100%;
+}
+
+.HomePage .AddAndWhatsAppSect .add {
+  margin-left: 0.2%;
+  background-color: #EF9898;
+  text-align: center;
+  color: #fff;
+  border-radius: 50%;
+  padding: 15px;
+  width: 60px;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 2px 2px 2px #d8d8d8;
+  cursor: pointer;
+}
+
+.HomePage .AddAndWhatsAppSect .add:hover {
+  color: #EF9898;
+  background-color: #fff;
+  border: 1px solid #EF9898;
+}
+
+.categoryTypeCont {
+  width: 80%;
+  margin: auto;
+  margin-top: -30px;
+}
+
+.array {
+  display: flex;
+  overflow: hidden;
+}
+
+.categoryType {
+  margin-left: 10px;
+  border: 1px solid rgb(207, 206, 206);
+  width: 285px;
+  height: 415px;
+  box-shadow: 2px 2px 2px 2px rgb(224, 224, 224);
+  border-radius: 10px;
+}
+
+.categoryType img {
+  width: 100%;
+  height: 280px;
+}
+
+.categoryTypeCont .title1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 60px;
+}
+
+.categoryType .name {
+  font-weight: bold;
+  font-size: 20px;
+  color: #333;
+}
+
+.categoryType .price {
+  margin-top: 7px;
+  color: #333;
+}
+
+.categoryType .details {
+  padding: 10px 25px;
+}
+
+.HomePage .showMore {
+  position: absolute;
+  margin-right: 10%;
+  right: 0;
+  border: 1px solid #a7a5a5;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 5px;
+  background-color: #f0efef;
+  color: #575656;
+  cursor: pointer;
+}
+
+.HomePage .showMore:hover {
+  background-color: #d4d3d3;
+}
+
+.addToCard {
+  background-color: #EF9898;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  margin-top: 0px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addToCard:hover {
+  background-color: #fff;
+  color: #EF9898;
+  border: 1px solid #EF9898;
+}
+
+@media (max-width: 500px) {
+  .HomePage .AddAndWhatsAppSect {
+    margin: -30px 80%;
+  }
+}/*# sourceMappingURL=HomePage.css.map */

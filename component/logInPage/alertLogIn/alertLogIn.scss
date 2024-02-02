@@ -1,0 +1,29 @@
+@import '../../../style/style.scss';
+
+
+.Model .btn{
+    width: max-content;
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-shadow: none;
+    color: #fff;
+   
+}
+.Model .btn-calendar-modal-save{
+    background-color: $firstColor;
+    border: none;
+}
+.Model .btn-calendar-modal-save:hover{
+    color: $firstColor;
+    border: 1px solid $firstColor;
+    background-color: #fff;
+}
+.Model .btn-calendar-modal-cancel{
+    background-color: $SecondColor;
+    border: none;
+}
+.Model .btn-calendar-modal-cancel:hover{
+    color: $SecondColor;
+    border: 1px solid $SecondColor;
+    background-color: #fff;
+}

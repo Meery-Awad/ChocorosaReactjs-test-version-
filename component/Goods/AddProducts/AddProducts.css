@@ -1,0 +1,32 @@
+.NoYet {
+  color: #EF9898;
+  text-align: center;
+}
+
+.AddProducts input {
+  height: 35px;
+  font-size: 16px;
+  padding: 5px;
+}
+
+.AddProducts label {
+  font-size: 18px;
+  color: #EF9898;
+}
+
+.AddProducts .Description {
+  height: 70px;
+  padding-top: 5px;
+  text-align: start;
+  font-size: 18px;
+}
+
+.AddProducts h1 {
+  text-align: center;
+  color: #EF9898;
+  border-bottom: 2px solid #B48A65;
+  width: -moz-max-content;
+  width: max-content;
+  margin: auto;
+  margin-top: 10px;
+}/*# sourceMappingURL=AddProducts.css.map */

@@ -1,0 +1,95 @@
+.NoYet {
+  color: #EF9898;
+  text-align: center;
+}
+
+.categoryListCont {
+  width: 80%;
+  margin: auto;
+  margin-top: 270px;
+}
+
+.categoryListCont .oneCategoryList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.categoryListCont .categoryType {
+  margin: 15px;
+}
+
+.categoryListCont .fa-exchange-alt {
+  rotate: 90deg;
+  color: #B48A65;
+  border: 2px solid #B48A65;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.categoryListCont .subHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10%;
+  width: 80%;
+}
+
+.categoryListCont .filter {
+  padding: 10px;
+}
+
+.categoryListCont .fa-filter {
+  font-size: 25px;
+  color: #888;
+  cursor: pointer;
+}
+
+.categoryListCont .fa-close {
+  color: #888;
+  margin-left: 250px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.categoryListCont .rangPriceFilter {
+  position: absolute;
+  margin-left: -240px;
+  margin-top: 10px;
+  background-color: #fff;
+  padding: 30px 50px;
+  border: 2px solid #EF9898;
+  z-index: 1;
+  border-radius: 10px;
+}
+
+.categoryListCont .filterAndSort {
+  display: flex;
+}
+
+.categoryListCont .price {
+  color: black;
+}
+
+.categoryListCont .titleFilter {
+  color: #B48A65;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.categoryListCont .filterCategory {
+  margin-top: 10px;
+}
+
+.categoryListCont .colorLabel {
+  margin: 10px;
+  font-size: 15px;
+}
+
+.categoryListCont .resetFilter {
+  color: #888;
+  cursor: pointer;
+  text-decoration: underline;
+}/*# sourceMappingURL=categoryList.css.map */

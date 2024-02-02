@@ -1,0 +1,35 @@
+.NoYet {
+  color: #EF9898;
+  text-align: center;
+}
+
+.Model .btn {
+  width: -moz-max-content;
+  width: max-content;
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  box-shadow: none;
+  color: #fff;
+}
+
+.Model .btn-calendar-modal-save {
+  background-color: #EF9898;
+  border: none;
+}
+
+.Model .btn-calendar-modal-save:hover {
+  color: #EF9898;
+  border: 1px solid #EF9898;
+  background-color: #fff;
+}
+
+.Model .btn-calendar-modal-cancel {
+  background-color: #B48A65;
+  border: none;
+}
+
+.Model .btn-calendar-modal-cancel:hover {
+  color: #B48A65;
+  border: 1px solid #B48A65;
+  background-color: #fff;
+}/*# sourceMappingURL=alertLogIn.css.map */

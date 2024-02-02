@@ -1,0 +1,48 @@
+.NoYet {
+  color: #EF9898;
+  text-align: center;
+}
+
+.AddItem {
+  padding: 0px;
+}
+
+.AddItemTitle {
+  font-size: 22px;
+  text-align: center;
+  margin: 5px 0 25px 0;
+  background: linear-gradient(90deg, #EF9898 25%, #edabab 30%, #d4a882 75%, #B48A65 100%);
+  font-weight: bold;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.selectedColorList {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+  margin-top: -10px;
+}
+
+.selectedColor {
+  background-color: #EF9898;
+  border-radius: 20px;
+  padding: 5px 15px;
+  font-size: 14px;
+  display: flex;
+  margin-left: 5px;
+  margin-top: 3px;
+}
+
+.selectedColor i {
+  margin-left: 8px;
+  color: #fff;
+  padding-left: 3px;
+  cursor: pointer;
+}
+
+.selectedColor i:hover {
+  color: #888;
+  text-shadow: 2px 2px 2px #fff;
+  padding: 0;
+}/*# sourceMappingURL=addItem.css.map */

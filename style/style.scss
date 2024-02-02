@@ -1,0 +1,62 @@
+$firstColor: #EF9898;
+$greed: #ffff;
+$SecondColor: #B48A65;
+$height: 210px;
+$titlePadding: 20px 30px;
+
+
+.NoYet{
+  color: $firstColor;
+  text-align: center;
+ 
+}
+@mixin title {
+  font-size: 26px;
+  font-weight: bold;
+ 
+ 
+
+}
+
+
+@mixin alert {
+  position: relative;
+  opacity: 0.83;
+  transition: opacity 0.6s;
+  border-radius: 6px;
+  font-size: 1.2em;
+  width: 100%;
+  margin: auto;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  justify-content: center;
+  text-align: center;
+  z-index: 0;
+
+
+
+}
+
+@mixin success {
+  border: 1px solid yellow;
+  border-left: 9px solid rgb(245, 245, 32);
+  background-color: #e2dead;
+  color: $firstColor;
+  opacity: 0.8;
+
+
+
+  z-index: 5;
+
+}
+
+@mixin overFlowText() {
+
+
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
